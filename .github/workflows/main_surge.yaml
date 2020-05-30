@@ -29,5 +29,5 @@ jobs:
     - name: Intall Surge
       run: npm install -g surge
     - name: run surge
-      run:  surge ./ ahead-pan.surge.sh --token ${(secrets.SURGE_TOKEN)}
+      run:  surge ./ ahead-pan.surge.sh --token ${(secrets.SURGE_1)}
    
